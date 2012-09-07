@@ -45,7 +45,7 @@ public class BirthDayWishesThanks {
     	waitForElement("xpath=//div[@id='blueBar']/div/div/a/i");
 		
 		selenium.type("id=email","sujith010987@gmail.com");
-		selenium.type("id=pass","sujithkumarkupunarapu");
+		selenium.type("id=pass","your_password");
 		selenium.click("xpath=//label[@id='loginbutton']/input");
 
 		waitForElement("xpath=//div[@id='pagelet_ego_pane_w']/div/div/div/div/div[2]/h5");
